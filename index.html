@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Nexus | Gift</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicons/favicon.gift.png" type="image/png">
+
+  <style>
+    :root {
+      --main-bg: #2c2c2c;
+      --side-bg: #3a3a3a;
+      --header-bg: #141414;
+      --footer-bg: #141414;
+      --text-color: #ffffff;
+      --bn-blue: #4A90E2;
+
+      --gift-color: #FF4F81;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--side-bg);
+      color: var(--text-color);
+    }
+
+    .main-content {
+      width: 60%;
+      margin: 0 auto;
+      background-color: var(--main-bg);
+      padding: 2rem 0;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    header.main-header {
+      background-color: var(--header-bg);
+      height: 220px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .header-logo {
+      height: 180px;
+      width: auto;
+      position: absolute;
+      left: 20%;
+    }
+
+    footer.main-footer {
+      background-color: var(--footer-bg);
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 24px;
+      right: 48px;
+      background-color: var(--gift-color);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    .back-button:hover {
+      opacity: 0.85;
+    }
+	html, body {
+	  height: 100%;
+	}
+
+	body {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+.main-content {
+  flex: 1;
+}
+
+  </style>
+</head>
+<body>
+
+  <header class="main-header">
+    <img src="images/logos/logo.gift.png" alt="Blue Nexus Gift Logo" class="header-logo">
+    <button class="back-button" onclick="history.back()">Back</button>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <h1 style="color: var(--gift-color); font-size: 2rem; margin-top: 2rem;">
+      WORK IN PROGRESS — COME BACK NEXT XMAS!
+    </h1>
+  </main>
+
+  <footer class="main-footer">
+    <p>Blue Nexus © 2025</p>
+  </footer>
+
+</body>
+</html>
